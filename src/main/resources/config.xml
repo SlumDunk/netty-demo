@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <appname>
+        cc-control-simple
+    </appname>
+    <path>
+        F:
+    </path>
+    <projects>
+        <project name="跨境电商">
+            <childProject name="phy-ceb-business">
+                phy-ceb-business
+            </childProject>
+            <childProject name="phy-ceb-client">
+                phy-ceb-client
+            </childProject>
+            <childProject name="phy-ceb-web">
+                phy-ceb-web
+            </childProject>
+        </project>
+        <project name="无纸化系统">
+            <childProject name="business">
+                business
+            </childProject>
+            <childProject name="appservice">
+                appservice
+            </childProject>
+            <childProject name="webservice">
+                webservice
+            </childProject>
+            <childProject name="docksys-business">
+                docksys-business
+            </childProject>
+            <childProject name="docksys-web">
+                docksys-web
+            </childProject>
+            <childProject name="docksys-webservice">
+                docksys-webservice
+            </childProject>           
+        </project>
+    </projects>
+</root>

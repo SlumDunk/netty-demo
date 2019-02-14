@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<!--ACTION命名约束 -->
+	<!--命名和Action类名保持一致，只是以小写字母开头，去掉Action后缀 -->
+	<!--如：调用XyzAction的doXyz()方法 相应命名为xyz!xyz -->
+	<!--这里沿用了webwork的命名习惯，好处是很方便根据名称找到相应的class -->
+	<!--业务系统管理 -->
+	<package name="common" namespace="/common" extends="all">		
+		<action name="commonService"
+			class="com.phy.cc.action.common.CommonAction">
+			<result name="toHome">/home.jsp</result>
+			<result name="toHistoryVersion">/historicVersion.jsp</result>
+			<result name="toStaticsSvnVersion">/staticsSvnVersion.jsp</result>
+		</action>
+	</package>
+
+</struts>
